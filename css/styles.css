@@ -6,11 +6,12 @@
     --button-color: #ffffff;
     --background-color: #f5f4fa;
     --border-color: #eeeeee;
+    --icon-color: #afb1b8;
 }
 
-* {
+/* * {
     outline: 1px solid red;
-}
+} */
 
 body {
     background-color: var(--button-color);
@@ -25,8 +26,7 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;
-    
+    margin-right: auto;  
 }
 
 /* header */
@@ -110,12 +110,13 @@ body {
 .envelope {
     width: 16px;
     height: 12px;
-    fill: currentColor;
+    stroke: currentColor;
 }
 
 .smartphone {
     width: 10px;
     height: 16px;
+    stroke: currentColor;
 }
 
 .auth-nav p {
@@ -124,8 +125,7 @@ body {
 
 /* hero */
 .hero-section {
-    background-color: #c4c4c4;
-    background-image: url(/images/back-img.jpg);  
+    background: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(/images/back-img.jpg);
 }
 
 .hero {
@@ -181,6 +181,28 @@ body {
     margin: -1px;
 }
 
+.feature li {
+    width: 270px;
+}
+
+.feature li:not(:last-child) {
+    margin-right: 30px;
+}
+
+.feature-icon {
+    height: 120px;
+    background-color: var(--background-color);
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-icon svg {
+    width: 70px;
+    height: 70px;
+}
+
 .feature  h3 {
     font-weight: 700;
     letter-spacing: 0.42px;
@@ -202,6 +224,7 @@ body {
     padding-bottom: 94px;
 }
 
+.client,
 .team {
     padding-top: 94px;
     padding-bottom: 94px;
@@ -209,7 +232,8 @@ body {
 }
 
 .work h2, 
-.team h2 {
+.team h2,
+.client h2 {
     font-weight: 700;
     font-size: 36px;
     letter-spacing: 1.08px;
@@ -250,18 +274,89 @@ body {
     font-size: 16px;
     letter-spacing: 0.48px;
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
 }
+
+.team-icon {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+.icon-social {
+    /* display: block; */
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-color);  
+}
+
+
+.icon-social svg {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+}
+
+
+.icon-social:hover {
+    background-color: var(--brend-color);
+    color: var(--button-color);
+}
+
 
 .big-team {
     background-color: var(--background-color);
 }
 
+/* client */
+.client-list {
+    display: flex;
+    justify-content: space-between; 
+}
+
+.client-icon {
+    display: block;
+    width: 170px;
+    height: 92px;
+    border-radius: 4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--icon-color);
+}
+
+.client-icon svg {
+    display: block;
+    width: 106px;
+    height: 60px;
+    fill: currentColor;
+}
+
+.client-icon:hover {
+    border: 1px solid var(--brend-color);
+    color: var(--brend-color);
+}
+
 /* footer */
 footer {
-    background-color: #2f303a;
+    background-color: #2f303a;   
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-addres {
+    margin-right: 70px;
     padding-top: 60px;
     padding-bottom: 60px;
+    width: 230px;
 }
 
 .logo.footer {
@@ -289,6 +384,33 @@ address ul li {
 
 address ul li:last-child {
     margin-bottom: 0;
+}
+
+.footer-network {
+    margin-top: 72px;
+    margin-bottom: 100px;
+}
+
+.footer-network h2 {
+    font-weight: 700;
+    color: var(--button-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.footer-network ul {
+    display: flex;
+    justify-content: space-between;
+    width: 206px;
+}
+
+.footer-icon {
+    background-color: #45454a;
+}
+
+.icon-social svg {
+    fill: var(--button-color);
 }
 
 
