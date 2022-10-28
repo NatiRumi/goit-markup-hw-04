@@ -111,12 +111,14 @@ body {
     width: 16px;
     height: 12px;
     stroke: currentColor;
+    fill: currentColor;
 }
 
 .smartphone {
     width: 10px;
     height: 16px;
     stroke: currentColor;
+    fill: currentColor;
 }
 
 .auth-nav p {
@@ -126,6 +128,9 @@ body {
 /* hero */
 .hero-section {
     background: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(/images/back-img.jpg);
+    background-size: 1600px;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .hero {
@@ -253,6 +258,8 @@ body {
     border-left: 1px solid var(--border-color);
     border-right: 1px solid var(--border-color);
     border-bottom: 1px solid var(--border-color);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .team-info {
@@ -284,8 +291,13 @@ body {
     padding-right: 32px;
 }
 
+.team-icon li {
+    border: none;
+    box-shadow: none;
+}
+
 .icon-social {
-    /* display: block; */
+    display: block;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -303,7 +315,7 @@ body {
     fill: currentColor;
 }
 
-
+.icon-social:focus,
 .icon-social:hover {
     background-color: var(--brend-color);
     color: var(--button-color);
@@ -338,6 +350,7 @@ body {
     fill: currentColor;
 }
 
+.client-icon:focus,
 .client-icon:hover {
     border: 1px solid var(--brend-color);
     color: var(--brend-color);
@@ -453,6 +466,8 @@ address ul li:last-child {
 .filter button:hover {
     color: var(--button-color);
     background-color: var(--brend-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
 }
 
 .card {
@@ -464,7 +479,8 @@ address ul li:last-child {
 .card li:hover,
 .card li:focus {
     cursor: pointer;
-    /* border: 1px solid var(--brend-color); */
+    border: 1px solid #EEEEEE;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .card li {
