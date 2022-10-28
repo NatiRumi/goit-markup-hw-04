@@ -29,12 +29,14 @@ body {
     margin-right: auto;
 }
 
+
 /* header */
 .header {
     border-bottom: 1px solid #ECECEC;
     display: flex;
     align-items: center;
 }
+
 
 /* logo */
 .logo {
@@ -124,6 +126,7 @@ body {
 .auth-nav p {
     margin-left: 10px;
 }
+
 
 /* hero */
 .hero-section {
@@ -223,6 +226,7 @@ body {
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 /* work + team */
 .work {
@@ -326,6 +330,7 @@ body {
     background-color: var(--background-color);
 }
 
+
 /* client */
 .client-list {
     display: flex;
@@ -333,7 +338,6 @@ body {
 }
 
 .client-icon {
-    display: block;
     width: 170px;
     height: 92px;
     display: flex;
@@ -356,6 +360,7 @@ body {
     border: 1px solid var(--brend-color);
     color: var(--brend-color);
 }
+
 
 /* footer */
 footer {
@@ -521,19 +526,23 @@ address ul li:last-child {
 }
 
 
+
 Li {
     list-style: none;
 }
 
+
 a {
     text-decoration: none;
 }
+
 
 ul {
     padding-left: 0;
     margin-top: 0;
     margin-bottom: 0;
 }
+
 
 img {
     display: block;
