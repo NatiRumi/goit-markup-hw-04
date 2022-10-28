@@ -26,14 +26,14 @@ body {
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
-    margin-right: auto;  
+    margin-right: auto;
 }
 
 /* header */
 .header {
-    border-bottom: 1px solid #ECECEC; 
+    border-bottom: 1px solid #ECECEC;
     display: flex;
-    align-items: center; 
+    align-items: center;
 }
 
 /* logo */
@@ -41,8 +41,8 @@ body {
     font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
-    letter-spacing: 0.78px;  
-    line-height: 1.17;   
+    letter-spacing: 0.78px;
+    line-height: 1.17;
     color: var(--logo-color);
     margin-right: 93px;
 }
@@ -54,7 +54,7 @@ body {
 
 /* navigation */
 .site-nav {
-    display: flex;   
+    display: flex;
 }
 
 .site-nav li {
@@ -65,7 +65,7 @@ body {
     margin-right: 0;
 }
 
-.site-nav a{
+.site-nav a {
     font-weight: 500;
     letter-spacing: 0.28px;
     line-height: 1.17;
@@ -127,7 +127,7 @@ body {
 
 /* hero */
 .hero-section {
-    background: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)), url(../images/back-img.jpg);
+    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/back-img.jpg);
     background-size: 1600px;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +143,7 @@ body {
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-    letter-spacing: 2.64px;  
+    letter-spacing: 2.64px;
     color: var(--button-color);
     text-transform: uppercase;
     text-align: center;
@@ -208,7 +208,7 @@ body {
     height: 70px;
 }
 
-.feature  h3 {
+.feature h3 {
     font-weight: 700;
     letter-spacing: 0.42px;
     color: var(--title-color);
@@ -217,7 +217,7 @@ body {
     margin-bottom: 10px;
 }
 
-.feature  p {
+.feature p {
     line-height: 1.71;
     letter-spacing: 0.42px;
     margin-top: 0;
@@ -236,7 +236,7 @@ body {
     text-align: center;
 }
 
-.work h2, 
+.work h2,
 .team h2,
 .client h2 {
     font-weight: 700;
@@ -265,7 +265,7 @@ body {
 .team-info {
     background-color: var(--button-color);
     padding-top: 30px;
-    padding-bottom: 30px;   
+    padding-bottom: 30px;
 }
 
 .team h3 {
@@ -304,7 +304,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--icon-color);  
+    color: var(--icon-color);
 }
 
 
@@ -329,7 +329,7 @@ body {
 /* client */
 .client-list {
     display: flex;
-    justify-content: space-between;  
+    justify-content: space-between;
 }
 
 .client-icon {
@@ -360,7 +360,7 @@ body {
 
 /* footer */
 footer {
-    background-color: #2f303a;   
+    background-color: #2f303a;
 }
 
 .footer {
@@ -381,7 +381,7 @@ footer {
     margin-bottom: 20px;
 }
 
-address  a {
+address a {
     line-height: 1.71;
     letter-spacing: 0.42px;
     color: var(--text-color);
@@ -449,8 +449,8 @@ address ul li:last-child {
     font-size: 16px;
     line-height: 1.63;
     letter-spacing: 0.48px;
-    color: var(--title-color); 
-    background-color: var(--background-color); 
+    color: var(--title-color);
+    background-color: var(--background-color);
     cursor: pointer;
     margin-right: 8px;
 }
@@ -503,7 +503,7 @@ address ul li:last-child {
     border-bottom: 1px solid var(--border-color);
 }
 
-.card-content  h2 {
+.card-content h2 {
     margin-top: 0;
     margin-bottom: 4px;
     font-weight: 700;
@@ -513,7 +513,7 @@ address ul li:last-child {
     color: var(--title-color);
 }
 
-.card-content  p {
+.card-content p {
     margin-top: 0;
     margin-bottom: 20px;
     font-size: 16px;
